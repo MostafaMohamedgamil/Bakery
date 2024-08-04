@@ -1,0 +1,389 @@
+body {
+    margin: 0px;
+}
+
+.solid {
+    background-color: #eee;
+    width: 40px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    top: 150px;
+    z-index: 1000;
+}
+
+
+
+
+.section1 {
+    background-image: url(imges/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+    position: relative;
+    /*عشان من غيرها الباد بتزيد*/
+}
+
+.continer-nav {
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    background-color:#403D38;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    top: 0px;
+    /* left: 0;  احطهم و اشيل ويدس
+    right: 0; */
+    z-index: 1000;
+}
+
+.navleft {
+    /* background-color: #09c; */
+    float: left;
+}
+
+.navbar .navleft img {
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+.navright {
+    /* background-color: coral; */
+    float: right;
+}
+
+.navright li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+
+.navright li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clr {
+    clear: both;
+}
+
+
+.content{
+        margin-top: 300px;
+
+}
+
+.section1 .desciption {
+    text-align: center;
+    /* margin-top: 400px; */
+    color: white;
+}
+
+.section1 .button {
+    text-align: center;
+}
+
+.section1 .button .b1 {
+    background-color: rgb(172, 136, 82);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.section1 .button .b1:hover{
+    background-color: white;
+    color: black;
+}
+
+.section1 .button .b2 {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.section1 .button .b2:hover{
+    background-color: white;
+    color: black;
+}
+
+img {
+    width: 100%;
+
+    /* vertical-align: middle; */
+}
+
+
+.layer {
+   /* 
+   rgba are n't color system
+   a => alpha  between(0 : 1) not 0,1
+    1 : defult color
+   */
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+
+
+
+
+/* Section 2 */
+
+.section2 {
+    padding: 0px 150px;
+}
+
+.section2 .section2-img {
+    width: 42%;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+    vertical-align: middle;
+    padding-right: 70px;
+}
+
+
+.section2 .section2-description {
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    overflow: auto;
+    margin-top: 130px;
+}
+
+.section2 .section2-description ul li {
+    list-style: none;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.section2 .section2-description ul li i {
+    color: #8b5555;
+    ;
+}
+
+.section2 .section2-description .ul .li .span1 {
+    margin: 0%;
+}
+
+.section2 .section2-description .ul .li .span2 {
+    margin: 0%;
+}
+
+
+
+
+/* section 3 */
+
+.section3 {
+    background-color: #f8f8f8;
+    padding: 90px 120px;
+}
+
+.section3 .description {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section3 .description h2 {
+    margin-bottom: 50px;
+}
+
+.section3 .description .st {
+    margin-bottom: 40px;
+}
+
+.section3 .img {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 120px;
+}
+
+
+
+
+/* Section 4 */
+
+
+.section4 {
+    /* background-color: brown; */
+    margin: 70px auto;
+    padding: 30px 70px;
+}
+
+.up {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu {
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.menu .item {
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin: 0 20px;
+
+}
+
+.menu .item img {
+    width: 100%;
+}
+
+
+
+
+
+
+/* Secyion 5 */
+
+
+.section5 {
+    background-color: #f8f8f8;
+    overflow: hidden;
+    padding: 90px 120px;
+}
+
+.section5 .all {
+    margin-left: 30px;
+}
+
+.section5 .description {
+    width: 40%;
+    float: left;
+}
+
+.section5 .map {
+    width: 45%;
+    float: left;
+    margin-left: 60px;
+}
+
+/* مشكله ف تنسيق الليست */
+.section5 .all .description .lists ul li {
+    list-style: none;
+}
+
+.section5 .all .description p ul li {
+    list-style: none;
+    color: #8b5555;
+    ;
+
+}
+
+
+
+
+
+
+
+/* Section 6 */
+
+.section6 {
+    background-color: #403D38;
+    overflow: hidden;
+    padding: 50px 30px;
+}
+
+.section6 .divs .div1 {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.section6 .divs .div2 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section6 .divs .div2 ul li {
+    list-style: none;
+}
+
+.section6 .divs .div3 {
+    width: 20%;
+    text-align: center;
+    float: left;
+
+}
+
+.section6 .divs .div3 ul li {
+    list-style: none;
+}
+
+.section6 .divs .div4 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section6 .divs .div4 ul li {
+    list-style: none;
+}
+
+
+/* Section 7 */
+
+
+.section7 {
+    background-color: #353330;
+    /* padding: 40px; */
+}
+
+.section7 .img {
+    width: 25%;
+    margin: auto;
+    padding: 140px;
+}
+
+.section7 .img span {
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .section4{
+        width:50%;
+    }
+}
